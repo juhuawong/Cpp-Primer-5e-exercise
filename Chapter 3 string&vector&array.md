@@ -25,6 +25,7 @@
 
     `cin`是不读取空格的
     `getline`读取空格，这个函数只读取一行，返回`istream`类型
+    `while(cin >> s)`可以使用ctrl+z键结束，ctrl+z在windows下模拟的是EOF。
 
 #### string的empty和size操作 ####
 

@@ -10,6 +10,9 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Exer3.2.3.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{A0DBC4EE-7EBB-409B-9AD7-509CC418574F}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -74,9 +77,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="Exer3.2.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
